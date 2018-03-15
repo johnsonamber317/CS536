@@ -1,0 +1,27 @@
+//Tests decl, varDecl and type
+int a;
+bool b;
+void c;
+struct d e;
+
+//Tests structDecl
+ struct f{  
+       int g; 
+       int h;
+};
+
+//Tests fnDecl and fnBody
+int k {
+} // formals: empty; fnbody: empty
+int l(int m, boolean n){
+} 
+int o(){ 
+	int p; 
+	int q;
+} 
+
+//Tests fncall
+int r{
+	o();
+}
+d.e = p;
